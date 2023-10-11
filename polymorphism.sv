@@ -18,7 +18,7 @@ module tb;
 initial begin
 parent p;
 child c=new();
-
+//assign chil handle to parent handle
 p=c;
 p.display();
 end
